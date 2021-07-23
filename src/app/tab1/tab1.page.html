@@ -5,5 +5,15 @@
 </ion-header>
 
 <ion-content>
-
+  <!-- Crear una lista -->
+  <ion-list>
+    <!-- Crear elementos de la lista -->
+    <ion-item *ngFor="let carrera of lista">
+      <ion-button>
+        <ion-icon name="book"></ion-icon>
+      </ion-button>
+      <!-- De acuerdo a la iteración, asignar nombre de elemento -->
+      {{carrera.titulo}}
+    </ion-item>
+  </ion-list>
 </ion-content>
