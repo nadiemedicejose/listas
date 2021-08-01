@@ -1,6 +1,25 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
 
+:root {
+  --ion-color-guinda: #781E1B;
+  --ion-color-guinda-rgb: 120,30,27;
+  --ion-color-guinda-contrast: #ffffff;
+  --ion-color-guinda-contrast-rgb: 255,255,255;
+  --ion-color-guinda-shade: #6a1a18;
+  --ion-color-guinda-tint: #863532;
+}
+
+.ion-color-guinda {
+  --ion-color-base: var(--ion-color-guinda);
+  --ion-color-base-rgb: var(--ion-color-guinda-rgb);
+  --ion-color-contrast: var(--ion-color-guinda-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-guinda-contrast-rgb);
+  --ion-color-shade: var(--ion-color-guinda-shade);
+  --ion-color-tint: var(--ion-color-guinda-tint);
+}
+
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/

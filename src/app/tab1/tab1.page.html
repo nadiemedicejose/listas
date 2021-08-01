@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar color="dark">
+  <ion-toolbar color="guinda">
     <ion-title class="ion-text-center">CARRERAS OFERTADAS EN LA UES</ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,8 +9,8 @@
   <ion-list>
     <!-- Crear elementos de la lista -->
     <ion-item *ngFor="let carrera of lista">
-      <ion-button>
-        <ion-icon name="book"></ion-icon>
+      <ion-button color="warning">
+        <ion-icon name="book" color="light"></ion-icon>
       </ion-button>
       <!-- De acuerdo a la iteración, asignar nombre de elemento -->
       {{carrera.titulo}}
